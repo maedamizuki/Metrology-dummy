@@ -1,0 +1,222 @@
+Declare Sub QVBlock_12
+Declare Sub QVBlock_11
+Declare Sub QVBlock_10
+Declare Sub QVBlock_9
+Declare Sub QVBlock_8
+Declare Sub QVBlock_7
+Declare Sub QVBlock_6
+Declare Sub QVBlock_5
+Declare Sub QVBlock_4
+Declare Sub QVBlock_3
+Declare Sub QVBlock_2
+Declare Sub QVBlock_1
+Option Explicit
+
+sub startup
+
+'  *** Display Format ***
+DistanceUnits = MM
+CoordinateMode = CART
+ResolutionMode = DECIMALS_4
+AngleRange = ZERO_TO_360
+AngleUnits = DECIMAL_DEGREES_3
+
+'  *** Lens in Use ***
+Lens.Select Label:="2.5X (QV Objective)"
+
+'  *** Results Formatting ***
+Results.ShowColumnLabels = TRUE
+Results.ShowFeatureTypeInHdr = TRUE
+Results.ShowFeatureLabelInHdr = TRUE
+Results.ShowFeatureIDInHdr = TRUE
+Results.ShowNumOfPointsInHdr = TRUE
+Results.FormatColumns   ELEMENT, ACTUAL, NOMINAL, DEVIATION, UPTOL, LOWTOL, PASSFAIL
+
+'  *** Results Messages ***
+Results.ShowAlignmentMsg = FALSE
+Results.ShowUnitsChangeMsg = FALSE
+Results.ShowConstructionMsg = FALSE
+Results.ShowErrorMsg = FALSE
+
+'  *** Results Data Reporting ***
+Results.ReportLevel = ALLDATA
+
+'  *** Results Logging ***
+Results.LogToFile = TRUE
+Results.LogFileName = "C:\Program Files\QVPAK5\Œ‹‰Ê\2019.07.11.txt"
+Results.LogToCOM1 = FALSE
+Results.LogToCOM2 = FALSE
+
+'  *** Reference Plane ***
+ReferencePlane = XY_PLANE
+
+'  *** Measuring Device ***
+MeasuringDevice = QV_VIDEO
+
+end sub   'startup
+
+sub Main    'start of main subroutine
+
+call startup
+
+
+Call   QVBlock_1
+Call   QVBlock_2
+Call   QVBlock_3
+Call   QVBlock_4
+Call   QVBlock_5
+Call   QVBlock_6
+Call   QVBlock_7
+Call   QVBlock_8
+Call   QVBlock_9
+Call   QVBlock_10
+Call   QVBlock_11
+Call   QVBlock_12
+
+
+end sub   'Main
+
+
+Private Sub QVBlock_1
+
+Lens.NomMag = 2.500000
+Stage.MoveTo   X:=-2.5187399, Y:=-11.1243771, Z:=-0.5351448
+Light.PRL.SetAll   Coax:=0.25, Stage:=0.00, Back:=0.00, Front:=0.00, Right:=0.00, Left:=0.00, Angle:=0.00
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=-2.5195380, Y:=-11.1244894, Z:=-0.5085574, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_1
+
+Private Sub QVBlock_2
+
+Measure.Point Label:="ASIC1"
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Run   X:=-2.5116516, Y:=-11.1245518, Z:=-0.5086211, W:=0.3940600, H:=0.3923000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="ASIC1"
+Stage.MoveTo   X:=-2.8252753, Y:=26.2444833, Z:=-0.3067418
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=-2.8245394, Y:=26.2446866, Z:=-0.3312297, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_2
+
+Private Sub QVBlock_3
+
+Measure.Point Label:="ASIC2"
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Run   X:=-2.8246461, Y:=26.2445866, Z:=-0.3310332, W:=0.3940600, H:=0.3923000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="ASIC2"
+
+End Sub   'QVBlock_3
+
+Private Sub QVBlock_4
+
+Lens.NomMag = 2.500000
+Stage.MoveTo   X:=37.2596773, Y:=-11.0153571, Z:=-0.4274682
+Light.PRL.SetAll   Coax:=0.25, Stage:=0.00, Back:=0.00, Front:=0.00, Right:=0.00, Left:=0.00, Angle:=0.00
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=37.2598530, Y:=-11.0152474, Z:=-0.4299635, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_4
+
+Private Sub QVBlock_5
+
+Measure.Point Label:="ASIC3"
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Run   X:=37.2599273, Y:=-11.0074000, Z:=-0.4303283, W:=0.3940600, H:=0.3923000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="ASIC3"
+Stage.MoveTo   X:=36.9811484, Y:=26.5143166, Z:=-0.4302484
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=36.9799911, Y:=26.5141389, Z:=-0.3883654, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_5
+
+Private Sub QVBlock_6
+
+Measure.Point Label:="ASIC4"
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Run   X:=36.9878314, Y:=26.5101516, Z:=-0.3879468, W:=0.3940600, H:=0.3923000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="ASIC4"
+Stage.MoveTo   X:=4.1651932, Y:=1.6698742, Z:=0.7635766
+Light.PRL.SetAll   Coax:=0.25, Stage:=0.00, Back:=0.00, Front:=0.00, Right:=0.00, Left:=0.00, Angle:=0.00
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=4.1649421, Y:=1.6698240, Z:=0.7752741, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_6
+
+Private Sub QVBlock_7
+
+Measure.Point Label:="HVCap1"
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Run   X:=4.1490938, Y:=1.6581828, Z:=0.7747492, W:=0.3940600, H:=0.3923000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="HVCap1"
+Stage.MoveTo   X:=4.6081312, Y:=1.6694028, Z:=0.7753704
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=4.6083842, Y:=1.6694235, Z:=0.7702758, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_7
+
+Private Sub QVBlock_8
+
+Measure.Point Label:="HVCap2"
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Run   X:=4.6004474, Y:=1.6616419, Z:=0.7699047, W:=0.3940600, H:=0.3923000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="HVCap2"
+Stage.MoveTo   X:=4.7438600, Y:=2.8717182, Z:=0.7700145
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=4.7439620, Y:=2.8717325, Z:=0.7666161, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_8
+
+Private Sub QVBlock_9
+
+Measure.Point Label:="HVCap3"
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Run   X:=4.7440454, Y:=2.8795812, Z:=0.7659515, W:=0.3940600, H:=0.3923000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="HVCap3"
+Stage.MoveTo   X:=4.2248832, Y:=2.8758589, Z:=0.7660581
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=4.2248952, Y:=2.8758606, Z:=0.7656583, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_9
+
+Private Sub QVBlock_10
+
+Measure.Point Label:="HVCap4"
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Run   X:=4.2327283, Y:=2.8679538, Z:=0.7652598, W:=0.3940600, H:=0.3923000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="HVCap4"
+
+
+End Sub   'QVBlock_10
+
+Private Sub QVBlock_11
+
+Measure.Plane Label:="ASIC"
+Measure.RecallFeature    Tag:="ASIC1"
+Measure.RecallFeature    Tag:="ASIC2"
+Measure.RecallFeature    Tag:="ASIC3"
+Measure.RecallFeature    Tag:="ASIC4"
+Measure.EndMeas
+Results.ReportFeature   Show:=FT_, Tag:="ASIC"
+
+End Sub   'QVBlock_11
+
+Private Sub QVBlock_12
+
+Measure.Plane Label:="HVCap"
+Measure.RecallFeature    Tag:="HVCap1"
+Measure.RecallFeature    Tag:="HVCap2"
+Measure.RecallFeature    Tag:="HVCap3"
+Measure.RecallFeature    Tag:="HVCap4"
+Measure.EndMeas
+Results.ReportFeature   Show:=FT_, Tag:="HVCap"
+
+End Sub   'QVBlock_12

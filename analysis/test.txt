@@ -1,0 +1,135 @@
+
+          要素            実測値          設計値          誤差          上限公差        下限公差           OK/NG
+                                                        (TP誤差)        (TP公差)                                
+円: origin(ID:1, From 14 Pts.) 
+  座標     X  =           0.0041                                                                                
+  座標     Y  =           0.0009                                                                                
+  座標     Z  =          -0.0796                                                                                
+  直径     D  =           0.4614                                                                                
+  半径     R  =           0.2307                                                                                
+  真円度   F3 =                                           0.0124                                                
+
+円: yaxis(ID:2, From 17 Pts.) 
+  座標     X  =          -0.0016                                                                                
+  座標     Y  =          13.8095                                                                                
+  座標     Z  =          -0.1077                                                                                
+  直径     D  =           0.4721                                                                                
+  半径     R  =           0.2361                                                                                
+  真円度   F3 =                                           0.0238                                                
+
+線: ASICline1(ID:3, From 11 Pts.) 
+  座標     X  =          -2.9315                                                                                
+  座標     Y  =         -10.8197                                                                                
+  座標     Z  =          -0.5560                                                                                
+  真直度   F1 =                                           0.0167                                                
+
+線: ASICline2(ID:4, From 14 Pts.) 
+  座標     X  =          -2.2427                                                                                
+  座標     Y  =         -11.4523                                                                                
+  座標     Z  =          -0.5375                                                                                
+  真直度   F1 =                                           0.0815                                                
+
+点: ASICcorner1(ID:5, From 0 Pts.) 
+  座標     X  =          -2.8984                                                                                
+  座標     Y  =         -11.4352                                                                                
+  座標     Z  =           0.0000                                                                                
+
+線: ASICline3(ID:6, From 11 Pts.) 
+  座標     X  =          -2.9822                                                                                
+  座標     Y  =          26.0528                                                                                
+  座標     Z  =          -0.3169                                                                                
+  真直度   F1 =                                           0.0532                                                
+
+線: ASICline4(ID:7, From 3 Pts.) 
+  座標     X  =          -2.2897                                                                                
+  座標     Y  =          26.5868                                                                                
+  座標     Z  =          -0.2953                                                                                
+  真直度   F1 =                                           0.0132                                                
+
+点: ASICcorner2(ID:8, From 0 Pts.) 
+  座標     X  =          -2.9553                                                                                
+  座標     Y  =          26.5591                                                                                
+  座標     Z  =           0.0000                                                                                
+
+線: ASICline5(ID:9, From 11 Pts.) 
+  座標     X  =          37.4074                                                                                
+  座標     Y  =         -10.7403                                                                                
+  座標     Z  =          -0.4827                                                                                
+  真直度   F1 =                                           0.0340                                                
+
+線: ASICline6(ID:10, From 13 Pts.) 
+  座標     X  =          36.8629                                                                                
+  座標     Y  =         -11.3476                                                                                
+  座標     Z  =          -0.5002                                                                                
+  真直度   F1 =                                           0.0373                                                
+
+点: ASICcorner3(ID:11, From 0 Pts.) 
+  座標     X  =          37.4052                                                                                
+  座標     Y  =         -11.3370                                                                                
+  座標     Z  =           0.0000                                                                                
+
+線: ASICline7(ID:12, From 11 Pts.) 
+  座標     X  =          37.2919                                                                                
+  座標     Y  =          26.0549                                                                                
+  座標     Z  =          -0.3768                                                                                
+  真直度   F1 =                                           0.0536                                                
+
+線: ASICline8(ID:13, From 12 Pts.) 
+  座標     X  =          36.5384                                                                                
+  座標     Y  =          26.7117                                                                                
+  座標     Z  =          -0.3972                                                                                
+  真直度   F1 =                                           0.0192                                                
+
+点: ASICcorner4(ID:14, From 0 Pts.) 
+  座標     X  =          37.2092                                                                                
+  座標     Y  =          26.6821                                                                                
+  座標     Z  =           0.0000                                                                                
+
+距離: origin-1(ID:15) between ASICcorner1(ID:5) and origin(ID:1)
+  距離     SC =          11.7990                                                                                
+  座標差   XD =           2.9025                                                                                
+  座標差   YD =          11.4361                                                                                
+  座標差   ZD =          -0.0796                                                                                
+
+距離: origin-2(ID:16) between ASICcorner2(ID:8) and origin(ID:1)
+  距離     SC =          26.7227                                                                                
+  座標差   XD =           2.9594                                                                                
+  座標差   YD =         -26.5582                                                                                
+  座標差   ZD =          -0.0796                                                                                
+
+距離: origin-3(ID:17) between ASICcorner3(ID:11) and origin(ID:1)
+  距離     SC =          39.0820                                                                                
+  座標差   XD =         -37.4011                                                                                
+  座標差   YD =          11.3379                                                                                
+  座標差   ZD =          -0.0796                                                                                
+
+距離: origin-4(ID:18) between ASICcorner4(ID:14) and origin(ID:1)
+  距離     SC =          45.7834                                                                                
+  座標差   XD =         -37.2052                                                                                
+  座標差   YD =         -26.6812                                                                                
+  座標差   ZD =          -0.0796                                                                                
+
+距離: y-1(ID:19) between ASICcorner1(ID:5) and yaxis(ID:2)
+  距離     SC =          25.4106                                                                                
+  座標差   XD =           2.8968                                                                                
+  座標差   YD =          25.2448                                                                                
+  座標差   ZD =          -0.1077                                                                                
+
+距離: y-2(ID:20) between ASICcorner2(ID:8) and yaxis(ID:2)
+  距離     SC =          13.0877                                                                                
+  座標差   XD =           2.9537                                                                                
+  座標差   YD =         -12.7496                                                                                
+  座標差   ZD =          -0.1077                                                                                
+
+距離: y-3(ID:21) between ASICcorner3(ID:11) and yaxis(ID:2)
+  距離     SC =          45.0736                                                                                
+  座標差   XD =         -37.4068                                                                                
+  座標差   YD =          25.1465                                                                                
+  座標差   ZD =          -0.1077                                                                                
+
+距離: y-4(ID:22) between ASICcorner4(ID:14) and yaxis(ID:2)
+  距離     SC =          39.3746                                                                                
+  座標差   XD =         -37.2108                                                                                
+  座標差   YD =         -12.8725                                                                                
+  座標差   ZD =          -0.1077                                                                                
+

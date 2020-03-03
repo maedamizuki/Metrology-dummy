@@ -1,0 +1,251 @@
+Declare Sub QVBlock_11
+Declare Sub QVBlock_10
+Declare Sub QVBlock_9
+Declare Sub QVBlock_8
+Declare Sub QVBlock_7
+Declare Sub QVBlock_6
+Declare Sub QVBlock_5
+Declare Sub QVBlock_4
+Declare Sub QVBlock_3
+Declare Sub QVBlock_2
+Declare Sub QVBlock_1
+Option Explicit
+
+sub startup
+
+'  *** Display Format ***
+DistanceUnits = MM
+CoordinateMode = CART
+ResolutionMode = DECIMALS_4
+AngleRange = ZERO_TO_360
+AngleUnits = DECIMAL_DEGREES_3
+
+'  *** Lens in Use ***
+Lens.Select Label:="2.5X (QV Objective)"
+
+'  *** Results Formatting ***
+Results.ShowColumnLabels = TRUE
+Results.ShowFeatureTypeInHdr = TRUE
+Results.ShowFeatureLabelInHdr = TRUE
+Results.ShowFeatureIDInHdr = TRUE
+Results.ShowNumOfPointsInHdr = TRUE
+Results.FormatColumns   ELEMENT, ACTUAL, NOMINAL, DEVIATION, UPTOL, LOWTOL, PASSFAIL
+
+'  *** Results Messages ***
+Results.ShowAlignmentMsg = FALSE
+Results.ShowUnitsChangeMsg = FALSE
+Results.ShowConstructionMsg = FALSE
+Results.ShowErrorMsg = FALSE
+
+'  *** Results Data Reporting ***
+Results.ReportLevel = ALLDATA
+
+'  *** Results Logging ***
+Results.LogToFile = TRUE
+Results.LogFileName = "C:\Program Files\QVPAK5\Œ‹‰Ê\2019.07.11.txt"
+Results.LogToCOM1 = FALSE
+Results.LogToCOM2 = FALSE
+
+'  *** Reference Plane ***
+ReferencePlane = XY_PLANE
+
+'  *** Measuring Device ***
+MeasuringDevice = QV_VIDEO
+
+end sub   'startup
+
+sub Main    'start of main subroutine
+
+call startup
+
+
+Call   QVBlock_1
+Call   QVBlock_2
+Call   QVBlock_3
+Call   QVBlock_4
+Call   QVBlock_5
+Call   QVBlock_6
+Call   QVBlock_7
+Call   QVBlock_8
+Call   QVBlock_9
+Call   QVBlock_10
+Call   QVBlock_11
+
+
+end sub   'Main
+
+
+Private Sub QVBlock_1
+
+Lens.NomMag = 2.500000
+Stage.MoveTo   X:=-0.0038367, Y:=-0.0001101, Z:=-0.2438099
+Light.PRL.SetAll   Coax:=0.25, Stage:=0.00, Back:=0.00, Front:=0.00, Right:=0.00, Left:=0.00, Angle:=0.00
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=-0.0080874, Y:=-0.0007228, Z:=-0.0988759, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_1
+
+Private Sub QVBlock_2
+
+Measure.Circle Label:="origin"
+CircleTool.ScanInt = 20
+CircleTool.SetFilter   Alg:=DYNAMIC_THRESH, EdgeSlope:=FALLING, EdgeQuality:=STRONG, Outlier:=0, TH:=217.470588, THR:=0.542324, THS:=48.500000
+CircleTool.Run   X:=0.0195087, Y:=0.0029765, Z:=-0.0978318, R1:=0.1418616, R2:=0.2863790
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_ and CR_ and D_ and RD_, Tag:="origin"
+Stage.MoveTo   X:=0.0087286, Y:=13.8150238, Z:=-0.0771581
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=0.0101418, Y:=13.8152226, Z:=-0.1242357, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_2
+
+Private Sub QVBlock_3
+
+Measure.Circle Label:="yaxis"
+CircleTool.ScanInt = 20
+CircleTool.SetFilter   Alg:=DYNAMIC_THRESH, EdgeSlope:=FALLING, EdgeQuality:=STRONG, Outlier:=0, TH:=219.267516, THR:=0.607335, THS:=46.000000
+CircleTool.Run   X:=0.0061347, Y:=13.8074079, Z:=-0.1241889, R1:=0.1497428, R2:=0.2981480
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_ and CR_ and D_ and RD_, Tag:="yaxis"
+
+End Sub   'QVBlock_3
+
+Private Sub QVBlock_4
+
+Measure.Line Label:="ASICline1"
+Stage.MoveTo   X:=-2.7716004, Y:=-11.0447881, Z:=-0.5521036
+BoxTool.Mode = NORMAL
+BoxTool.ScanInt = 20
+BoxTool.SetFilter   Alg:=DYNAMIC_THRESH, EdgeSlope:=RISING, EdgeQuality:=STRONG, Outlier:=0, TH:=135.838150, THR:=0.319075, THS:=80.500000
+BoxTool.Run   X:=-2.9364983, Y:=-10.9766639, Z:=-0.5566660, W:=0.2955450, H:=1.1415930, Angle:=-0.4628
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, StatFlags:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, Tag:="ASICline1"
+
+End Sub   'QVBlock_4
+
+Private Sub QVBlock_5
+
+Measure.Line Label:="ASICline2"
+BoxTool.Mode = NORMAL
+BoxTool.ScanInt = 20
+BoxTool.SetFilter   Alg:=DYNAMIC_THRESH, EdgeSlope:=RISING, EdgeQuality:=STRONG, Outlier:=0, TH:=161.918919, THR:=0.425425, THS:=86.500000
+BoxTool.Run   X:=-2.3101090, Y:=-11.4604410, Z:=-0.5399050, W:=0.2403766, H:=1.2710520, Angle:=89.5448
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, StatFlags:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, Tag:="ASICline2"
+
+Construct.IntersectPoint   Tag1:="ASICline2", Tag2:="ASICline1", Label:="ASICcorner1", ProjPlane:=XY_PLANE, PreferredPoint := 1
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="ASICcorner1"
+Stage.MoveTo   X:=-2.8385088, Y:=26.4011694, Z:=-0.3904147
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=-2.8403871, Y:=26.4009053, Z:=-0.3278445, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_5
+
+Private Sub QVBlock_6
+
+Measure.Line Label:="ASICline3"
+BoxTool.Mode = NORMAL
+BoxTool.ScanInt = 20
+BoxTool.SetFilter   Alg:=DYNAMIC_THRESH, EdgeSlope:=RISING, EdgeQuality:=STRONG, Outlier:=0, TH:=93.594595, THR:=0.184333, THS:=26.500000
+BoxTool.Run   X:=-3.0204054, Y:=26.0532041, Z:=-0.3346163, W:=0.2679608, H:=1.1690540, Angle:=-0.4628
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, StatFlags:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, Tag:="ASICline3"
+
+End Sub   'QVBlock_6
+
+Private Sub QVBlock_7
+
+Measure.Line Label:="ASICline4"
+BoxTool.Mode = NORMAL
+BoxTool.ScanInt = 20
+BoxTool.SetFilter   Alg:=DYNAMIC_THRESH, EdgeSlope:=FALLING, EdgeQuality:=STRONG, Outlier:=0, TH:=139.097701, THR:=0.309683, THS:=88.000000
+BoxTool.Run   X:=-2.3543686, Y:=26.5931335, Z:=-0.3124432, W:=0.1852082, H:=1.3534350, Angle:=89.5448
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, StatFlags:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, Tag:="ASICline4"
+
+Construct.IntersectPoint   Tag1:="ASICline4", Tag2:="ASICline3", Label:="ASICcorner2", ProjPlane:=XY_PLANE, PreferredPoint := 1
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="ASICcorner2"
+
+End Sub   'QVBlock_7
+
+Private Sub QVBlock_8
+
+Measure.Line Label:="ASICline5"
+Stage.MoveTo   X:=37.4045569, Y:=-10.7874472, Z:=-0.4829837
+BoxTool.Mode = NORMAL
+BoxTool.ScanInt = 20
+BoxTool.SetFilter   Alg:=DYNAMIC_THRESH, EdgeSlope:=FALLING, EdgeQuality:=STRONG, Outlier:=0, TH:=186.794872, THR:=0.613633, THS:=79.000000
+BoxTool.Run   X:=37.4158808, Y:=-10.8620774, Z:=-0.4829589, W:=0.1458022, H:=1.1690540, Angle:=-0.4628
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, StatFlags:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, Tag:="ASICline5"
+
+End Sub   'QVBlock_8
+
+Private Sub QVBlock_9
+
+Measure.Line Label:="ASICline6"
+BoxTool.Mode = NORMAL
+BoxTool.ScanInt = 20
+BoxTool.SetFilter   Alg:=DYNAMIC_THRESH, EdgeSlope:=RISING, EdgeQuality:=STRONG, Outlier:=0, TH:=146.199052, THR:=0.398466, THS:=47.000000
+BoxTool.Run   X:=36.9273344, Y:=-11.3602857, Z:=-0.4998279, W:=0.1733864, H:=1.1023630, Angle:=89.5448
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, StatFlags:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, Tag:="ASICline6"
+
+Construct.IntersectPoint   Tag1:="ASICline6", Tag2:="ASICline5", Label:="ASICcorner3", ProjPlane:=XY_PLANE, PreferredPoint := 1
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="ASICcorner3"
+Stage.MoveTo   X:=37.2286304, Y:=26.4318047, Z:=-0.3312270
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=37.2301177, Y:=26.4320288, Z:=-0.3841049, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_9
+
+Private Sub QVBlock_10
+
+Measure.Line Label:="ASICline7"
+BoxTool.Mode = NORMAL
+BoxTool.ScanInt = 20
+BoxTool.SetFilter   Alg:=DYNAMIC_THRESH, EdgeSlope:=FALLING, EdgeQuality:=STRONG, Outlier:=0, TH:=139.000000, THR:=0.512605, THS:=26.500000
+BoxTool.Run   X:=37.2944829, Y:=26.1058915, Z:=-0.3833495, W:=0.1615646, H:=1.2592830, Angle:=4.5394
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, StatFlags:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, Tag:="ASICline7"
+
+End Sub   'QVBlock_10
+
+Private Sub QVBlock_11
+
+Measure.Line Label:="ASICline8"
+BoxTool.Mode = NORMAL
+BoxTool.ScanInt = 20
+BoxTool.SetFilter   Alg:=DYNAMIC_THRESH, EdgeSlope:=FALLING, EdgeQuality:=STRONG, Outlier:=0, TH:=146.406915, THR:=0.413010, THS:=79.500000
+BoxTool.Run   X:=36.6218569, Y:=26.7194040, Z:=-0.4009507, W:=0.1576240, H:=1.2043610, Angle:=89.5448
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, StatFlags:=X_ and Y_ and Z_ and AN_ and XA_ and YA_ and ZA_ and ST_, Tag:="ASICline8"
+
+Construct.IntersectPoint   Tag1:="ASICline8", Tag2:="ASICline7", Label:="ASICcorner4", ProjPlane:=XY_PLANE, PreferredPoint := 1
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="ASICcorner4"
+
+Construct.Distance   Tag1:="ASICcorner1", Tag2:="origin", Label:="origin-1", ProjPlane:=NO_PLANE
+Results.ReportFeature   Show:=DX_ and DY_ and DZ_ and SC_, Tag:="origin-1"
+
+Construct.Distance   Tag1:="ASICcorner2", Tag2:="origin", Label:="origin-2", ProjPlane:=NO_PLANE
+Results.ReportFeature   Show:=DX_ and DY_ and DZ_ and SC_, Tag:="origin-2"
+
+Construct.Distance   Tag1:="ASICcorner3", Tag2:="origin", Label:="origin-3", ProjPlane:=NO_PLANE
+Results.ReportFeature   Show:=DX_ and DY_ and DZ_ and SC_, Tag:="origin-3"
+
+Construct.Distance   Tag1:="ASICcorner4", Tag2:="origin", Label:="origin-4", ProjPlane:=NO_PLANE
+Results.ReportFeature   Show:=DX_ and DY_ and DZ_ and SC_, Tag:="origin-4"
+
+Construct.Distance   Tag1:="ASICcorner1", Tag2:="yaxis", Label:="y-1", ProjPlane:=NO_PLANE
+Results.ReportFeature   Show:=DX_ and DY_ and DZ_ and SC_, Tag:="y-1"
+
+Construct.Distance   Tag1:="ASICcorner2", Tag2:="yaxis", Label:="y-2", ProjPlane:=NO_PLANE
+Results.ReportFeature   Show:=DX_ and DY_ and DZ_ and SC_, Tag:="y-2"
+
+Construct.Distance   Tag1:="ASICcorner3", Tag2:="yaxis", Label:="y-3", ProjPlane:=NO_PLANE
+Results.ReportFeature   Show:=DX_ and DY_ and DZ_ and SC_, Tag:="y-3"
+
+Construct.Distance   Tag1:="ASICcorner4", Tag2:="yaxis", Label:="y-4", ProjPlane:=NO_PLANE
+Results.ReportFeature   Show:=DX_ and DY_ and DZ_ and SC_, Tag:="y-4"
+
+End Sub   'QVBlock_11

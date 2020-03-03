@@ -1,0 +1,495 @@
+Measure.Point Label:="point1783"
+Stage.MoveTo X:=8.996333333333338, Y:=2.761666666666674, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=2.761666666666674, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1783"
+Measure.Point Label:="point1784"
+Stage.MoveTo X:=8.996333333333338, Y:=3.0950000000000077, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=3.0950000000000077, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1784"
+Measure.Point Label:="point1785"
+Stage.MoveTo X:=8.996333333333338, Y:=3.4283333333333417, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=3.4283333333333417, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1785"
+Measure.Point Label:="point1786"
+Stage.MoveTo X:=8.996333333333338, Y:=3.7616666666666756, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=3.7616666666666756, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1786"
+Measure.Point Label:="point1787"
+Stage.MoveTo X:=8.996333333333338, Y:=4.0950000000000095, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=4.0950000000000095, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1787"
+Measure.Point Label:="point1788"
+Stage.MoveTo X:=8.996333333333338, Y:=4.4283333333333434, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=4.4283333333333434, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1788"
+Measure.Point Label:="point1789"
+Stage.MoveTo X:=8.996333333333338, Y:=4.761666666666677, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=4.761666666666677, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1789"
+Measure.Point Label:="point1790"
+Stage.MoveTo X:=8.996333333333338, Y:=5.095000000000011, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=5.095000000000011, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1790"
+Measure.Point Label:="point1791"
+Stage.MoveTo X:=8.996333333333338, Y:=5.428333333333345, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=5.428333333333345, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1791"
+Measure.Point Label:="point1792"
+Stage.MoveTo X:=8.996333333333338, Y:=5.761666666666679, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=5.761666666666679, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1792"
+Measure.Point Label:="point1793"
+Stage.MoveTo X:=8.996333333333338, Y:=6.095000000000013, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=6.095000000000013, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1793"
+Measure.Point Label:="point1794"
+Stage.MoveTo X:=8.996333333333338, Y:=6.428333333333345, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=6.428333333333345, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1794"
+Measure.Point Label:="point1795"
+Stage.MoveTo X:=8.996333333333338, Y:=6.761666666666677, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=6.761666666666677, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1795"
+Measure.Point Label:="point1796"
+Stage.MoveTo X:=8.996333333333338, Y:=7.0950000000000095, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=7.0950000000000095, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1796"
+Measure.Point Label:="point1797"
+Stage.MoveTo X:=8.996333333333338, Y:=7.428333333333342, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=7.428333333333342, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1797"
+Measure.Point Label:="point1798"
+Stage.MoveTo X:=8.996333333333338, Y:=7.761666666666674, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=7.761666666666674, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1798"
+Measure.Point Label:="point1799"
+Stage.MoveTo X:=8.996333333333338, Y:=8.095000000000006, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=8.095000000000006, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1799"
+Measure.Point Label:="point1800"
+Stage.MoveTo X:=8.996333333333338, Y:=8.428333333333338, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=8.428333333333338, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1800"
+Measure.Point Label:="point1801"
+Stage.MoveTo X:=8.996333333333338, Y:=8.76166666666667, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=8.76166666666667, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1801"
+Measure.Point Label:="point1802"
+Stage.MoveTo X:=8.996333333333338, Y:=9.095000000000002, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=9.095000000000002, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1802"
+Measure.Point Label:="point1803"
+Stage.MoveTo X:=8.996333333333338, Y:=9.428333333333335, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=9.428333333333335, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1803"
+Measure.Point Label:="point1804"
+Stage.MoveTo X:=8.996333333333338, Y:=9.761666666666667, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=9.761666666666667, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1804"
+Measure.Point Label:="point1805"
+Stage.MoveTo X:=8.996333333333338, Y:=10.094999999999999, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=10.094999999999999, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1805"
+Measure.Point Label:="point1806"
+Stage.MoveTo X:=8.996333333333338, Y:=10.428333333333331, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=10.428333333333331, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1806"
+Measure.Point Label:="point1807"
+Stage.MoveTo X:=8.996333333333338, Y:=10.761666666666663, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=10.761666666666663, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1807"
+Measure.Point Label:="point1808"
+Stage.MoveTo X:=8.996333333333338, Y:=11.094999999999995, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=11.094999999999995, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1808"
+Measure.Point Label:="point1809"
+Stage.MoveTo X:=8.996333333333338, Y:=11.428333333333327, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=11.428333333333327, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1809"
+Measure.Point Label:="point1810"
+Stage.MoveTo X:=8.996333333333338, Y:=11.76166666666666, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=11.76166666666666, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1810"
+Measure.Point Label:="point1811"
+Stage.MoveTo X:=8.996333333333338, Y:=12.094999999999992, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=12.094999999999992, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1811"
+Measure.Point Label:="point1812"
+Stage.MoveTo X:=8.996333333333338, Y:=12.428333333333324, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=12.428333333333324, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1812"
+Measure.Point Label:="point1813"
+Stage.MoveTo X:=8.996333333333338, Y:=12.761666666666656, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=12.761666666666656, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1813"
+Measure.Point Label:="point1814"
+Stage.MoveTo X:=8.996333333333338, Y:=13.094999999999988, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=13.094999999999988, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1814"
+Measure.Point Label:="point1815"
+Stage.MoveTo X:=8.996333333333338, Y:=13.42833333333332, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=13.42833333333332, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1815"
+Measure.Point Label:="point1816"
+Stage.MoveTo X:=8.996333333333338, Y:=13.761666666666653, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=13.761666666666653, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1816"
+Measure.Point Label:="point1817"
+Stage.MoveTo X:=8.996333333333338, Y:=14.094999999999985, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=14.094999999999985, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1817"
+Measure.Point Label:="point1818"
+Stage.MoveTo X:=8.996333333333338, Y:=14.428333333333317, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=14.428333333333317, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1818"
+Measure.Point Label:="point1819"
+Stage.MoveTo X:=8.996333333333338, Y:=14.761666666666649, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=14.761666666666649, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1819"
+Measure.Point Label:="point1820"
+Stage.MoveTo X:=8.996333333333338, Y:=15.094999999999981, Z:=0
+FocusTool.Run X:=8.996333333333338, Y:=15.094999999999981, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1820"
+Measure.Point Label:="point1821"
+Stage.MoveTo X:=9.329666666666672, Y:=-1.9050000000000002, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=-1.9050000000000002, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1821"
+Measure.Point Label:="point1822"
+Stage.MoveTo X:=9.329666666666672, Y:=-1.5716666666666672, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=-1.5716666666666672, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1822"
+Measure.Point Label:="point1823"
+Stage.MoveTo X:=9.329666666666672, Y:=-1.2383333333333333, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=-1.2383333333333333, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1823"
+Measure.Point Label:="point1824"
+Stage.MoveTo X:=9.329666666666672, Y:=-0.9049999999999994, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=-0.9049999999999994, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1824"
+Measure.Point Label:="point1825"
+Stage.MoveTo X:=9.329666666666672, Y:=-0.5716666666666654, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=-0.5716666666666654, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1825"
+Measure.Point Label:="point1826"
+Stage.MoveTo X:=9.329666666666672, Y:=-0.2383333333333315, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=-0.2383333333333315, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1826"
+Measure.Point Label:="point1827"
+Stage.MoveTo X:=9.329666666666672, Y:=0.09500000000000242, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=0.09500000000000242, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1827"
+Measure.Point Label:="point1828"
+Stage.MoveTo X:=9.329666666666672, Y:=0.42833333333333634, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=0.42833333333333634, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1828"
+Measure.Point Label:="point1829"
+Stage.MoveTo X:=9.329666666666672, Y:=0.7616666666666703, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=0.7616666666666703, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1829"
+Measure.Point Label:="point1830"
+Stage.MoveTo X:=9.329666666666672, Y:=1.0950000000000042, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=1.0950000000000042, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1830"
+Measure.Point Label:="point1831"
+Stage.MoveTo X:=9.329666666666672, Y:=1.4283333333333381, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=1.4283333333333381, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1831"
+Measure.Point Label:="point1832"
+Stage.MoveTo X:=9.329666666666672, Y:=1.761666666666672, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=1.761666666666672, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1832"
+Measure.Point Label:="point1833"
+Stage.MoveTo X:=9.329666666666672, Y:=2.095000000000006, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=2.095000000000006, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1833"
+Measure.Point Label:="point1834"
+Stage.MoveTo X:=9.329666666666672, Y:=2.42833333333334, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=2.42833333333334, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1834"
+Measure.Point Label:="point1835"
+Stage.MoveTo X:=9.329666666666672, Y:=2.761666666666674, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=2.761666666666674, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1835"
+Measure.Point Label:="point1836"
+Stage.MoveTo X:=9.329666666666672, Y:=3.0950000000000077, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=3.0950000000000077, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1836"
+Measure.Point Label:="point1837"
+Stage.MoveTo X:=9.329666666666672, Y:=3.4283333333333417, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=3.4283333333333417, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1837"
+Measure.Point Label:="point1838"
+Stage.MoveTo X:=9.329666666666672, Y:=3.7616666666666756, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=3.7616666666666756, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1838"
+Measure.Point Label:="point1839"
+Stage.MoveTo X:=9.329666666666672, Y:=4.0950000000000095, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=4.0950000000000095, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1839"
+Measure.Point Label:="point1840"
+Stage.MoveTo X:=9.329666666666672, Y:=4.4283333333333434, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=4.4283333333333434, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1840"
+Measure.Point Label:="point1841"
+Stage.MoveTo X:=9.329666666666672, Y:=4.761666666666677, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=4.761666666666677, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1841"
+Measure.Point Label:="point1842"
+Stage.MoveTo X:=9.329666666666672, Y:=5.095000000000011, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=5.095000000000011, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1842"
+Measure.Point Label:="point1843"
+Stage.MoveTo X:=9.329666666666672, Y:=5.428333333333345, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=5.428333333333345, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1843"
+Measure.Point Label:="point1844"
+Stage.MoveTo X:=9.329666666666672, Y:=5.761666666666679, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=5.761666666666679, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1844"
+Measure.Point Label:="point1845"
+Stage.MoveTo X:=9.329666666666672, Y:=6.095000000000013, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=6.095000000000013, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1845"
+Measure.Point Label:="point1846"
+Stage.MoveTo X:=9.329666666666672, Y:=6.428333333333345, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=6.428333333333345, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1846"
+Measure.Point Label:="point1847"
+Stage.MoveTo X:=9.329666666666672, Y:=6.761666666666677, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=6.761666666666677, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1847"
+Measure.Point Label:="point1848"
+Stage.MoveTo X:=9.329666666666672, Y:=7.0950000000000095, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=7.0950000000000095, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1848"
+Measure.Point Label:="point1849"
+Stage.MoveTo X:=9.329666666666672, Y:=7.428333333333342, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=7.428333333333342, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1849"
+Measure.Point Label:="point1850"
+Stage.MoveTo X:=9.329666666666672, Y:=7.761666666666674, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=7.761666666666674, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1850"
+Measure.Point Label:="point1851"
+Stage.MoveTo X:=9.329666666666672, Y:=8.095000000000006, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=8.095000000000006, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1851"
+Measure.Point Label:="point1852"
+Stage.MoveTo X:=9.329666666666672, Y:=8.428333333333338, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=8.428333333333338, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1852"
+Measure.Point Label:="point1853"
+Stage.MoveTo X:=9.329666666666672, Y:=8.76166666666667, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=8.76166666666667, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1853"
+Measure.Point Label:="point1854"
+Stage.MoveTo X:=9.329666666666672, Y:=9.095000000000002, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=9.095000000000002, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1854"
+Measure.Point Label:="point1855"
+Stage.MoveTo X:=9.329666666666672, Y:=9.428333333333335, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=9.428333333333335, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1855"
+Measure.Point Label:="point1856"
+Stage.MoveTo X:=9.329666666666672, Y:=9.761666666666667, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=9.761666666666667, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1856"
+Measure.Point Label:="point1857"
+Stage.MoveTo X:=9.329666666666672, Y:=10.094999999999999, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=10.094999999999999, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1857"
+Measure.Point Label:="point1858"
+Stage.MoveTo X:=9.329666666666672, Y:=10.428333333333331, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=10.428333333333331, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1858"
+Measure.Point Label:="point1859"
+Stage.MoveTo X:=9.329666666666672, Y:=10.761666666666663, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=10.761666666666663, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1859"
+Measure.Point Label:="point1860"
+Stage.MoveTo X:=9.329666666666672, Y:=11.094999999999995, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=11.094999999999995, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1860"
+Measure.Point Label:="point1861"
+Stage.MoveTo X:=9.329666666666672, Y:=11.428333333333327, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=11.428333333333327, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1861"
+Measure.Point Label:="point1862"
+Stage.MoveTo X:=9.329666666666672, Y:=11.76166666666666, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=11.76166666666666, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1862"
+Measure.Point Label:="point1863"
+Stage.MoveTo X:=9.329666666666672, Y:=12.094999999999992, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=12.094999999999992, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1863"
+Measure.Point Label:="point1864"
+Stage.MoveTo X:=9.329666666666672, Y:=12.428333333333324, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=12.428333333333324, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1864"
+Measure.Point Label:="point1865"
+Stage.MoveTo X:=9.329666666666672, Y:=12.761666666666656, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=12.761666666666656, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1865"
+Measure.Point Label:="point1866"
+Stage.MoveTo X:=9.329666666666672, Y:=13.094999999999988, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=13.094999999999988, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1866"
+Measure.Point Label:="point1867"
+Stage.MoveTo X:=9.329666666666672, Y:=13.42833333333332, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=13.42833333333332, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1867"
+Measure.Point Label:="point1868"
+Stage.MoveTo X:=9.329666666666672, Y:=13.761666666666653, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=13.761666666666653, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1868"
+Measure.Point Label:="point1869"
+Stage.MoveTo X:=9.329666666666672, Y:=14.094999999999985, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=14.094999999999985, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1869"
+Measure.Point Label:="point1870"
+Stage.MoveTo X:=9.329666666666672, Y:=14.428333333333317, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=14.428333333333317, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1870"
+Measure.Point Label:="point1871"
+Stage.MoveTo X:=9.329666666666672, Y:=14.761666666666649, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=14.761666666666649, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1871"
+Measure.Point Label:="point1872"
+Stage.MoveTo X:=9.329666666666672, Y:=15.094999999999981, Z:=0
+FocusTool.Run X:=9.329666666666672, Y:=15.094999999999981, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1872"
+Measure.Point Label:="point1873"
+Stage.MoveTo X:=9.663000000000006, Y:=-1.9050000000000002, Z:=0
+FocusTool.Run X:=9.663000000000006, Y:=-1.9050000000000002, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1873"
+Measure.Point Label:="point1874"
+Stage.MoveTo X:=9.663000000000006, Y:=-1.5716666666666672, Z:=0
+FocusTool.Run X:=9.663000000000006, Y:=-1.5716666666666672, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1874"
+Measure.Point Label:="point1875"
+Stage.MoveTo X:=9.663000000000006, Y:=-1.2383333333333333, Z:=0
+FocusTool.Run X:=9.663000000000006, Y:=-1.2383333333333333, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1875"
+Measure.Point Label:="point1876"
+Stage.MoveTo X:=9.663000000000006, Y:=-0.9049999999999994, Z:=0
+FocusTool.Run X:=9.663000000000006, Y:=-0.9049999999999994, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1876"
+Measure.Point Label:="point1877"
+Stage.MoveTo X:=9.663000000000006, Y:=-0.5716666666666654, Z:=0
+FocusTool.Run X:=9.663000000000006, Y:=-0.5716666666666654, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1877"
+Measure.Point Label:="point1878"
+Stage.MoveTo X:=9.663000000000006, Y:=-0.2383333333333315, Z:=0
+FocusTool.Run X:=9.663000000000006, Y:=-0.2383333333333315, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1878"
+Measure.Point Label:="point1879"
+Stage.MoveTo X:=9.663000000000006, Y:=0.09500000000000242, Z:=0
+FocusTool.Run X:=9.663000000000006, Y:=0.09500000000000242, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1879"
+Measure.Point Label:="point1880"
+Stage.MoveTo X:=9.663000000000006, Y:=0.42833333333333634, Z:=0
+FocusTool.Run X:=9.663000000000006, Y:=0.42833333333333634, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1880"
+Measure.Point Label:="point1881"
+Stage.MoveTo X:=9.663000000000006, Y:=0.7616666666666703, Z:=0
+FocusTool.Run X:=9.663000000000006, Y:=0.7616666666666703, Z:=0, W:=0.3, H:=0.3
+Measure.EndMeas
+Results.ReportFeature Show:=X_ and Y_ and Z_, Tag:="point1881"

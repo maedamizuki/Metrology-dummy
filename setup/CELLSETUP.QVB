@@ -1,0 +1,123 @@
+Declare Sub QVBlock_5
+Declare Sub QVBlock_4
+Declare Sub QVBlock_3
+Declare Sub QVBlock_2
+Declare Sub QVBlock_1
+Option Explicit
+
+sub startup
+
+'  *** Display Format ***
+DistanceUnits = MM
+CoordinateMode = CART
+ResolutionMode = DECIMALS_4
+AngleRange = ZERO_TO_360
+AngleUnits = DECIMAL_DEGREES_3
+
+'  *** Lens in Use ***
+Lens.Select Label:="2.5X (QV Objective)"
+
+'  *** Results Formatting ***
+Results.ShowColumnLabels = TRUE
+Results.ShowFeatureTypeInHdr = TRUE
+Results.ShowFeatureLabelInHdr = TRUE
+Results.ShowFeatureIDInHdr = TRUE
+Results.ShowNumOfPointsInHdr = TRUE
+Results.FormatColumns   ELEMENT, ACTUAL, NOMINAL, DEVIATION, UPTOL, LOWTOL, PASSFAIL
+
+'  *** Results Messages ***
+Results.ShowAlignmentMsg = FALSE
+Results.ShowUnitsChangeMsg = FALSE
+Results.ShowConstructionMsg = FALSE
+Results.ShowErrorMsg = FALSE
+
+'  *** Results Data Reporting ***
+Results.ReportLevel = ALLDATA
+
+'  *** Results Logging ***
+Results.LogToFile = TRUE
+Results.LogFileName = "C:\Program Files\QVPAK5\Œ‹‰Ê\2019.07.11.txt"
+Results.LogToCOM1 = FALSE
+Results.LogToCOM2 = FALSE
+
+'  *** Reference Plane ***
+ReferencePlane = XY_PLANE
+
+'  *** Measuring Device ***
+MeasuringDevice = QV_VIDEO
+
+end sub   'startup
+
+sub Main    'start of main subroutine
+
+call startup
+
+
+Call   QVBlock_1
+Call   QVBlock_2
+Call   QVBlock_3
+Call   QVBlock_4
+Call   QVBlock_5
+
+
+end sub   'Main
+
+
+Private Sub QVBlock_1
+
+Lens.NomMag = 2.500000
+Stage.MoveTo   X:=-19.6577837, Y:=-11.6409126, Z:=6.8505919
+Light.PRL.SetAll   Coax:=0.25, Stage:=0.00, Back:=0.00, Front:=0.00, Right:=0.00, Left:=0.00, Angle:=0.00
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=-19.6576839, Y:=-11.6409188, Z:=6.8714916, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_1
+
+Private Sub QVBlock_2
+
+Measure.Point Label:="tpg1"
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Run   X:=-19.6574429, Y:=-11.6370032, Z:=6.8708916, W:=0.3940600, H:=0.3923000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="tpg1"
+PCS.AlignOrigin   Axes:=Z_AXIS, Tag:="tpg1"
+Stage.MoveTo   X:=-19.4928886, Y:=23.4295872, Z:=0.2805656
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=-19.4928886, Y:=23.4295872, Z:=0.2172667, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_2
+
+Private Sub QVBlock_3
+
+Measure.Point Label:="tpg2"
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Run   X:=-19.4932708, Y:=23.4217499, Z:=0.2175667, W:=0.3940600, H:=0.3923000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="tpg2"
+Stage.MoveTo   X:=18.9478709, Y:=-11.5423546, Z:=-0.4373222
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Focus   X:=18.9478709, Y:=-11.5423546, Z:=-0.4461220, W:=0.3940600, H:=0.3923000
+
+End Sub   'QVBlock_3
+
+Private Sub QVBlock_4
+
+Measure.Point Label:="tpg3"
+FocusTool.SetMode   FocusType:=SURFACE, Speed:=MED, Range:=0.6438308
+FocusTool.Run   X:=19.2640601, Y:=-11.7308233, Z:=-0.4328222, W:=0.3940600, H:=0.3923000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="tpg3"
+
+End Sub   'QVBlock_4
+
+Private Sub QVBlock_5
+
+Measure.Plane Label:="tpg"
+Measure.RecallFeature    Tag:="tpg1"
+Measure.RecallFeature    Tag:="tpg2"
+Measure.RecallFeature    Tag:="tpg3"
+Measure.EndMeas
+Results.ReportFeature   Show:=FT_, Tag:="tpg"
+PCS.AlignPlane   Tag:="tpg", Plane:=XY_PLANE
+
+End Sub   'QVBlock_5
